@@ -1,0 +1,98 @@
+header{
+    display: flex;
+    }
+.logo{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+
+}
+.header-li{
+    list-style: none;
+    margin: 20px;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+.header-li-link{
+    text-decoration: none;
+    font-size: 20px;
+}
+.htitle{
+    color: rgb(42, 72, 206);
+
+}
+.mainform-center{
+    display: flex;
+    justify-content: center;
+}
+
+.form-description{
+text-align: center;
+}
+.form-div{
+    display: flex;
+    justify-content: center;
+}
+.frm-nam-pas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nam{
+    display: block;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 4px;
+    border: solid 2px rgb(176, 175, 175);
+
+}
+.pas{
+    display: block;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 4px;
+    border: solid 2px rgb(176, 175, 175);
+}
+.telnum{
+    display: block;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 4px;
+    border: solid 2px rgb(176, 175, 175);
+}
+#text-des{
+    display: block;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 4px;
+    border: solid 2px rgb(176, 175, 175);
+}
+.butn-form{
+    
+    display: flex;
+    justify-content: center;
+}
+.butn{
+    width: 50%;
+    padding: 10px;
+    margin: 15px;
+    color:rgb(255, 255, 255);
+    border: solid 2px  rgb(42, 72, 206);
+    background-color: rgb(42, 72, 206);
+    border-radius: 10px ;
+    font-weight: bold;
+    font-size: 15px;
+}
+.butn:hover{
+    background-color:rgb(255, 255, 255);
+    color: rgb(42, 72, 206);
+    box-shadow: 5px 5px 30px 5px #1f02fa16;
+}
+
+.form-p{
+    display: flex;
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+}
